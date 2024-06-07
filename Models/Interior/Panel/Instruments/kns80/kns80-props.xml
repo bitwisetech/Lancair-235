@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
+  <kns80>
     <powered type="bool">false</powered>
     <serviceable type="bool">true</serviceable>
     <nav-mode type="int">0</nav-mode>
@@ -103,4 +104,5 @@
         <dist3 type="int">0</dist3>
         <distance type="double">0.0</distance>
     </wpt>
+  </kns80>
 </PropertyList>

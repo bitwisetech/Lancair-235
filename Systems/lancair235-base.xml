@@ -21,9 +21,6 @@
       </livery>
     </model>
 
-
-    <instrumentation include="initialisation.xml"/>
-
     <systems include="rules.xml">
       <path>Aircraft/Lancair-235/Systems/systems.xml</path>
       <path>Aircraft/Lancair-235/Models/Interior/Panel/Instruments/kap140/kap140-proprules.xml</path>
