@@ -19,8 +19,11 @@
     <type>material</type>
     <object-name>switch</object-name>
     <object-name>tour</object-name>
+    <condition>
+      <property>controls/electric/battery-switch</property>
+    </condition>
     <emission>
-      <factor-prop>systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <factor-prop>controls/lighting/luminosite-lights</factor-prop>
       <red>   0.5 </red>
       <green> 0.4 </green>
       <blue>  0.3 </blue>
@@ -36,7 +39,7 @@
       <repeatable>false</repeatable>
       <binding>
         <command>property-toggle</command>
-        <property>controls/lighting/nav-lights</property>
+        <property>controls/lighting/beacon</property>
       </binding>
     </action>
   </animation>
@@ -44,7 +47,7 @@
   <animation>
     <type>rotate</type>
     <object-name>switch</object-name>
-    <property>controls/lighting/nav-lights</property>
+    <property>controls/lighting/beacon</property>
     <factor> 30 </factor>
     <axis>
       <x>  0 </x>
