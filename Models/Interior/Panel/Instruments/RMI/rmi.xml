@@ -109,7 +109,8 @@
   <animation>
     <type>rotate</type>
     <object-name>face</object-name>
-    <property>instrumentation/heading-indicator/indicated-heading-deg</property>
+    <!--property>instrumentation/heading-indicator/indicated-heading-deg</property-->
+    <property>instrumentation/kcs55/kg102/indicated-heading-deg</property>
     <axis>
       <x> 1 </x>
       <y> 0 </y>
@@ -131,7 +132,8 @@
   <animation>
     <type>rotate</type>
     <object-name>brgN1</object-name>
-    <property>orientation/heading-deg</property>
+    <!--property>orientation/heading-deg</property-->
+    <property>instrumentation/kcs55/kg102/indicated-heading-deg</property>
     <axis>
       <x> 1 </x>
       <y> 0 </y>
@@ -153,7 +155,8 @@
   <animation>
     <type>rotate</type>
     <object-name>brgN2</object-name>
-    <property>orientation/heading-deg</property>
+    <!--property>orientation/heading-deg</property-->
+    <property>instrumentation/kcs55/kg102/indicated-heading-deg</property>
     <axis>
       <x> 1 </x>
       <y> 0 </y>
@@ -164,7 +167,7 @@
   <animation>
     <type>rotate</type>
     <object-name>brgN2</object-name>
-    <property>/instrumentation/kns80/nav/heading-deg</property>
+    <property>instrumentation/kns80/nav/heading-deg</property>
     <axis>
       <x> -1 </x>
       <y>  0 </y>
@@ -175,7 +178,8 @@
   <animation>
     <type>rotate</type>
     <object-name>brgTAC</object-name>
-    <property>orientation/heading-deg</property>
+    <!--property>orientation/heading-deg</property-->
+    <property>instrumentation/heading-indicator/indicated-heading-deg</property>
     <axis>
       <x> 1 </x>
       <y> 0 </y>

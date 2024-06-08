@@ -451,7 +451,8 @@ setlistener("/instrumentation/nav-source/selector", func(tNode) {
     nav_flag_srce_node  = "/instrumentation/gps/nav/nav-flag";
   } else if (tIndx == 1 ) {
     # NAV2
-    sele_crse_srce_node = "/instrumentation/kns80/nav/heading-deg";
+    #sele_crse_srce_node = "/instrumentation/kns80/nav/heading-deg";
+    sele_crse_srce_node = "/instrumentation/nav[1]/radials/selected-deg";
     cdi_defl_srce_node  = "/instrumentation/kns80/nav/heading-needle-deflection-norm";
     gs_defl_srce_node   = "/instrumentation/kns80/nav/glideslope-deflection-norm";
     to_flag_srce_node   = "/instrumentation/kns80/nav/to-flag";

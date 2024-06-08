@@ -142,7 +142,7 @@
   <model>
     <path>Instruments/nav-srce-pbs/nav-srce-pbs.xml</path>
     <offsets>
-      <x-m> -0.022 </x-m>
+      <x-m> -0.02787 </x-m>
       <y-m> -0.131 </y-m>
       <z-m> -0.054 </z-m>
     </offsets>
@@ -225,11 +225,11 @@
 
   <!--  Radio Mag Indi NAV1/NAV2/TAC-->
   <model>
-    <path>Instruments/RMI/rmi.xml</path>
+    <path>Aircraft/Lancair-235/Models/Interior/Panel/Instruments/RMI/rmi.xml</path>
     <offsets>
       <x-m> -0.02787 </x-m>
       <y-m> -0.39400 </y-m>
-      <z-m> -0.05725 </z-m>
+      <z-m> -0.05525 </z-m>
     </offsets>
   </model>
 
