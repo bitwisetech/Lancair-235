@@ -164,7 +164,7 @@
   <animation>
     <type>rotate</type>
     <object-name>brgN2</object-name>
-    <property>instrumentation/kns80/nav/nav-distance-nm</property>
+    <property>/instrumentation/kns80/nav/heading-deg</property>
     <axis>
       <x> -1 </x>
       <y>  0 </y>

@@ -442,7 +442,7 @@ setlistener("/instrumentation/nav-source/selector", func(tNode) {
   #
   setprop( "/instrumentation/kcs55/ki525/nav-srce-index", tIndx);
   if (tIndx == 2 ) {
-    # These GPS prop settings have not been tested     
+    # GPS These prop settings have not been tested     
     sele_crse_srce_node = "/instrumentation/gps/nav/heading-deg";
     cdi_defl_srce_node  = "/instrumentation/gps/nav/heading-needle-deflection-norm";
     gs_defl_srce_node   = "/instrumentation/gps/nav/glideslope-deflection-norm";
@@ -450,6 +450,7 @@ setlistener("/instrumentation/nav-source/selector", func(tNode) {
     from_flag_srce_node = "/instrumentation/gps/nav/from-flag";
     nav_flag_srce_node  = "/instrumentation/gps/nav/nav-flag";
   } else if (tIndx == 1 ) {
+    # NAV2
     sele_crse_srce_node = "/instrumentation/kns80/nav/heading-deg";
     cdi_defl_srce_node  = "/instrumentation/kns80/nav/heading-needle-deflection-norm";
     gs_defl_srce_node   = "/instrumentation/kns80/nav/glideslope-deflection-norm";
@@ -457,6 +458,7 @@ setlistener("/instrumentation/nav-source/selector", func(tNode) {
     from_flag_srce_node = "/instrumentation/kns80/nav/from-flag";
     nav_flag_srce_node  = "/instrumentation/kns80/nav/in-range";
   } else {
+    # NAV1
     sele_crse_srce_node = "/instrumentation/nav[0]/radials/selected-deg";
     cdi_defl_srce_node  = "/instrumentation/nav[0]/heading-needle-deflection-norm";
     gs_defl_srce_node   = "/instrumentation/nav[0]/gs-needle-deflection-norm";

@@ -167,15 +167,15 @@ We have captured the localizer and the GS.
         <output> <property>autopilot/kap140/sensors/excess-g</property> </output>
     </flipflop>
 
-    <!-- Detect inoperable turn-indicator -->
+    <!-- Detect inoperable turn-coordinator -->
     <logic>
         <input>
             <and>
-                <property>instrumentation/turn-indicator/operable</property>
-                <property>instrumentation/turn-indicator/serviceable</property>
+                <property>instrumentation/turn-coordinator/operable</property>
+                <property>instrumentation/turn-coordinator/serviceable</property>
             </and>
         </input>
-        <output>autopilot/kap140/sensors/turn-indicator-operable</output>
+        <output>autopilot/kap140/sensors/turn-coordinator-operable</output>
     </logic>
 
     <!-- servo check -->
@@ -445,7 +445,7 @@ We have captured the localizer and the GS.
                 <or>
                     <property>autopilot/kap140/roll-axis-fail</property>
                     <property>autopilot/kap140/pitch-axis-fail</property>
-                    <not><property>autopilot/kap140/sensors/turn-indicator-operable</property></not>
+                    <not><property>autopilot/kap140/sensors/turn-coordinator-operable</property></not>
                 </or>
             </condition>
             <value>1</value>
@@ -1093,7 +1093,7 @@ We have captured the localizer and the GS.
                 <or>
                     <property>autopilot/kap140/pitch-axis-fail</property>
                     <property>autopilot/kap140/roll-axis-fail</property>
-                    <not><property>autopilot/kap140/sensors/turn-indicator-operable</property></not>
+                    <not><property>autopilot/kap140/sensors/turn-coordinator-operable</property></not>
                     <and>
                         <not><property>autopilot/kap140/event/button-cws</property></not>
                         <property>autopilot/kap140/sensors/excess-g</property>
