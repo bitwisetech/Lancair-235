@@ -90,7 +90,8 @@
   -->
     <!--  L235 Needs faster roll response to stop overshoot     -->
     <!--gain-roll type="double">1.3</gain-roll-->
-    <gain-roll type="double">16.0</gain-roll>
+    <gain-roll type="double">4.0</gain-roll>
+    <!--gain-roll type="double">24.0</gain-roll-->
     <gain-pitch type="double">0.7</gain-pitch>
 
   </params>

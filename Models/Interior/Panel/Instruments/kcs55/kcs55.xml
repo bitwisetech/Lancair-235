@@ -26,7 +26,7 @@
     <course-error-property type="string">instrumentation/nav-source/course-error</course-error-property>
 
     <!-- The property from where the the deviation between the heading bug and the lubber line is written to -->
-    <heading-error-property type="string">autopilot/internal/heading-error-deg</heading-error-property>
+    <heading-error-property type="string">autopilot/internal/heading-error-deg-kc55</heading-error-property>
   </ki525>
 
   <kg102>

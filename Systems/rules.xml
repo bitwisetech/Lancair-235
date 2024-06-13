@@ -31,4 +31,9 @@
     <path>Aircraft/Lancair-235/Models/Interior/Panel/Instruments/kns80/kns80-proprules.xml</path>
   </property-rule>
 
+  <property-rule n="107">
+    <path>Aircraft/Instruments/afdi-ka16.xml</path>
+  </property-rule>
+
+
 </PropertyList>

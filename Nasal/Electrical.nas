@@ -215,7 +215,7 @@ init_switches = func() {
 # append(watt_list,0.2);
 
   append(switch_list,"controls/electric/avionics-switch");
-  append(output_list,"turn-coordinator");
+  append(output_list,"turn-indicator");
   append(watt_list,0.2);
 
   append(switch_list,"controls/electric/avionics-switch");

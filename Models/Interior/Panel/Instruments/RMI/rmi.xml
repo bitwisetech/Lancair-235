@@ -224,7 +224,8 @@
   <animation>
     <type>rotate</type>
     <object-name>bug</object-name>
-    <property>instrumentation/heading-indicator/indicated-heading-deg</property>
+    <!--property>instrumentation/heading-indicator/indicated-heading-deg</property-->
+    <property>instrumentation/kcs55/kg102/indicated-heading-deg</property>
     <factor>-1</factor>
     <axis>
       <x> -1 </x>

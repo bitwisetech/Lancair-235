@@ -321,7 +321,8 @@
 			</condition>
 			<property>/autopilot/settings/heading-bug-latch</property>
 			<offset>
-				<property>/instrumentation/heading-indicator/indicated-heading-deg</property>
+				<!--property>/instrumentation/heading-indicator/indicated-heading-deg</property-->
+				<property>instrumentation/kcs55/kg102/indicated-heading-deg</property>
 				<scale>-1.0</scale>
 			</offset>
 		</input>
@@ -370,6 +371,7 @@
 		<output>/autopilot/internal/predicted-turn-rate</output>
 		<seconds>2.0</seconds>
 		<filter-gain>0.0</filter-gain>
+		<!--  4U13 try filter-gain>0.50000</filter-gain-->
 	</predict-simple>
 	
 	<filter>
@@ -406,10 +408,12 @@
 		<output>/autopilot/internal/aileron-pid</output>
 		<config>
 			<Kp>-0.08</Kp>
-      <!-- L235 Increase response to stop overshoot -->
-			<!--Ti>3.5</Ti-->
-			<Ti>1.6</Ti>
+			<Ti>3.5</Ti>
 			<Td>0.15</Td>
+      <!-- 4U13 L235 Increase response to stop overshoot -->
+			<!--Kp>-0.125</Kp-->
+			<!--Ti>1.6</Ti-->
+			<!--Td>0.15</Td-->
 			<u_min>-0.25</u_min>
 			<u_max>0.25</u_max>
 		</config>
@@ -434,9 +438,9 @@
 			</expression>
 		</input>
 		<output>/controls/flight/aileron</output>
-    <!-- L235 Increase response to stop overshoot -->
-		<!--max-rate-of-change>0.085</max-rate-of-change-->
-		<max-rate-of-change>0.500</max-rate-of-change>
+		<max-rate-of-change>0.085</max-rate-of-change>
+    <!-- 4U13 L235 Increase response to stop overshoot -->
+		<!--max-rate-of-change>1.0000500</max-rate-of-change-->
 	</filter>
 	
 	<filter>
