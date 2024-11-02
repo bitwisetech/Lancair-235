@@ -33,7 +33,7 @@
     </offsets>
   </model>
 
-  <!-- Pilote -->
+  <!-- Pilote
   <model>
     <path>../Pilot/pilot.xml</path>
     <offsets>
@@ -42,6 +42,7 @@
       <z-m> -0.205 </z-m>
     </offsets>
   </model>
+   -->
 
   <model>
     <path>Panel/Instruments/pedals/pedals.xml</path>

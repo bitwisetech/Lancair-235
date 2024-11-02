@@ -384,7 +384,7 @@
 
   <animation>
     <type>translate</type>
-    <object-name>Marker</object-name>
+    <object-name>GS</object-name>
     <property alias="../../params/gs-needle-deflection"/>
     <factor>0.004535342857142857143</factor>
     <axis>
@@ -396,7 +396,7 @@
 
   <animation>
     <type>select</type>
-    <object-name>Marker</object-name>
+    <object-name>GS</object-name>
     <condition>
       <property alias="../../../params/has-gs"/>
       <greater-than>
