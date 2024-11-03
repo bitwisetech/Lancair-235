@@ -39,7 +39,7 @@
     <object-name>HDGBug</object-name>
     <object-name>FROM</object-name>
     <object-name>TO</object-name>
-    <object-name>Marker</object-name>
+    <object-name>GSPointer</object-name>
     <object-name>ArrowHead</object-name>
     <object-name>ArrowBody</object-name>
     <object-name>LubberLine</object-name>
@@ -66,7 +66,7 @@
     <object-name>HDGBug</object-name>
     <object-name>FROM</object-name>
     <object-name>TO</object-name>
-    <object-name>Marker</object-name>
+    <object-name>GSPointer</object-name>
     <object-name>ArrowHead</object-name>
     <object-name>ArrowBody</object-name>
     <object-name>LubberLine</object-name>
@@ -96,7 +96,7 @@
     <object-name>HDGBug</object-name>
     <object-name>FROM</object-name>
     <object-name>TO</object-name>
-    <object-name>Marker</object-name>
+    <object-name>GSPointer</object-name>
     <object-name>ArrowHead</object-name>
     <object-name>ArrowBody</object-name>
     <object-name>LubberLine</object-name>
@@ -384,7 +384,7 @@
 
   <animation>
     <type>translate</type>
-    <object-name>Marker</object-name>
+    <object-name>GSPointer</object-name>
     <property alias="../../params/gs-needle-deflection"/>
     <factor>0.004535342857142857143</factor>
     <axis>
@@ -396,7 +396,7 @@
 
   <animation>
     <type>select</type>
-    <object-name>Marker</object-name>
+    <object-name>GSPointer</object-name>
     <condition>
       <property alias="../../../params/has-gs"/>
       <greater-than>
@@ -405,7 +405,7 @@
       </greater-than>
       <less-than>
         <property alias="../../../../params/gs-needle-deflection"/>
-        <value>5.0</value>
+        <value>5</value>
       </less-than>
     </condition>
   </animation>

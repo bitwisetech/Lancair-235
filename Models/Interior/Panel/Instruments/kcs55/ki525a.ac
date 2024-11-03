@@ -2419,10 +2419,10 @@ refs 4
 0 0.67300504446 0.666427135468
 kids 0
 OBJECT poly
-name "Marker"
+name "GSPointer"
 loc 0 0 -0
 data 6
-Marker
+GSPointer
 texture "ka51b.png"
 texrep 1.000000 1.000000
 crease 30.000001
