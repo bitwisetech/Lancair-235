@@ -188,7 +188,7 @@
     </offsets>
   </model>
 
-  <!-- GPS Console  ( disabled: White Sheet ) -->  
+  <!-- GPS Console -->  
   <model>
     <path>Instruments/zkv500/ZKV500.xml</path>
     <offsets>
